@@ -34,23 +34,6 @@ public class ChatController implements Initializable {
         ObservableList<String> items = FXCollections.observableArrayList(
                 "Saigo", "Shiro", "Mark", "Dog");
         listView.setItems(items);
-
-//        listView.setCellFactory(param -> new ListCell<String>() {
-//            public ImageView imageView = new ImageView();
-//
-//            @Override
-//            public void updateItem(String name, boolean empty) {
-//                super.updateItem(name, empty);
-//                if (empty) {
-//                    setText(null);
-//                    setGraphic(null);
-//                } else {
-//                    imageView.setImage(userImg);
-//                    setText(name);
-//                    setGraphic(imageView);
-//                }
-//            }
-//        });
         chatBt.setSelected(true);
     }
 
