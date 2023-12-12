@@ -1,0 +1,30 @@
+.list-view .list-cell:even {
+-fx-background-color: blue;
+-fx-text-fill: black;
+}
+.list-view .list-cell:odd {
+-fx-background-color: red;
+-fx-text-fill: black;
+}
+
+.func_button {
+    -fx-background-color: transparent;
+}
+
+.func_button: hover {
+    -fx-background-color: #1CA7EC;
+}
+
+.func_button: selected {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #1CA7EC;
+}
+
+.call_button {
+    -fx-background-color: transparent;
+}
+
+.call_button: hover {
+    -fx-background-color: #1CA7EC;
+}
