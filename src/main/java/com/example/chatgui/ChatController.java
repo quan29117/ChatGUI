@@ -15,8 +15,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class ChatController implements Initializable {
-//    private final Image userImg = new Image("../resources/img/user.png");
-
     @FXML
     public ToggleButton chatBt;
     @FXML
@@ -53,6 +51,7 @@ public class ChatController implements Initializable {
 //                }
 //            }
 //        });
+        chatBt.setSelected(true);
     }
 
     private void refreshButton() {
